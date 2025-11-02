@@ -1,0 +1,76 @@
+*{
+    background-color: #728A6E;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bigbox{
+    background-color: #324D3e;
+    width: 50%;
+    max-width: 45rem;
+    opacity: 2;
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+}
+
+.title, .subtitle{
+    background-color: #324D3e;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.temp, .cel1, .cel2, .fah1, .fah2, .kel1, .kel2{
+    border: none;
+    outline: none;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    background-color: #728A6E;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.cel1{
+    font-size: 1.4rem;
+}
+
+.conver:hover{
+    cursor: pointer;
+}
+
+.conver{
+    background-color: #728A6E;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1.4rem;
+    width: 50%;
+    color: white;
+}
+
+.litbox{
+    background-color: #324D3e;
+}
+
+#nume{
+ background-color: #728A6E;
+ border-radius: 1.5rem;  
+}
+
+.num{
+    background-color: #324D3e;
+}
+
+.total{
+    background-color: #324D3e;
+}
